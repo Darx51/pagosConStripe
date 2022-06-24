@@ -1,0 +1,10 @@
+export default {
+  public:"pk_live_51LAapYBCItzpCXUlP7Ncgl0p9RCKqsS341U4n45GUeEDibWzBYxG1mCBqMK3kai75UBcraTEVtIYo48yj2aBnype00FLRXEqMu",
+  secret:"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"
+}
+/*
+export default {
+  public:"pk_test_51LAapYBCItzpCXUlrz4QpPyRxik3CF0F20c5NemQ5E6DbAImHApuqa89Wb2XOXqaDUtfo0SYKpKDAS4935RPxdFC00HR3uvRTD",
+  secret:"sk_test_51LAapYBCItzpCXUlLs9xq8YxJZrkFGeDbbeEVnApdjq5cdoD2L7bk4d6SZPOcwTSo4sMAQhhuj74GmEmGIiPvuqs00G7dEDpNz"
+}
+*/

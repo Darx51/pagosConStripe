@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Checkout con Stripe</h1>
+  <section id="tacos" class="tacos">
+    <!--Aqui se creara el contenido de productos-->
+  </section>
+
+  <template id="taco-template">                     <!-- OJO los TEMPLATES ni los FRAGMENTS no se visualizan, son solo para meter ahi muchas imagenes o elementos -->
+    <figure class="taco">                           <!--cuando ya esten llenos de contenido, lo metemos a la seccion tacos-->
+      <img>
+      <figcaption></figcaption>
+    </figure>
+  </template>
+
+  <script src="https://js.stripe.com/v3/"></script>           <!--      1 agregamos la libreria de stripe js desde: https://stripe.com/docs/js -->
+  <script src="./assets/stripe-checkout.js" type="module"></script>
+</body>
+</html>

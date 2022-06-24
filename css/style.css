@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:before
+*:after{
+  box-sizing: inherit;
+}
+body{
+  background-color: rgb(54, 54, 54);
+}
+.taco{
+  background-color: rgb(16, 40, 223);
+  color: rgb(247, 242, 247);
+  font-size: 125%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.taco:hover{
+  opacity: .9;
+  transform: scale(.9);
+
+}
+.taco img{
+  max-width: 100%;
+  height: auto;
+}
+.taco figcaption{
+  padding: 1rem;
+}
+.tacos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tacos >*{                            /* indica que a todos los hijos directos de la clase tacos*/
+  flex: 1 1 200px;                /*si puede crecera, si puede se reducira, 300 indica el tamano minimo del item. en este caso como estan en fila seria el ancho */
+  margin: 1rem;
+} 
